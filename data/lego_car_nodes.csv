@@ -1,0 +1,22 @@
+id,type,name,color,cost,weight,material,duration_min,oee,assembly_time,availability,skill_level
+P1,Product,Chassis (Red Base Plate),red,0.15,12.0,ABS Plastic,,,,,
+P2,Product,Car Body Block (Red Upper),red,0.10,8.0,ABS Plastic,,,,,
+P3,Product,Load Block (Black),black,0.05,4.0,ABS Plastic,,,,,
+P4,Product,Windshield (White Piece),white,0.08,2.0,Transparent ABS,,,,,
+P5,Product,Rear Spoiler Wing (Yellow),yellow,0.10,3.0,ABS Plastic,,,,,
+P6,Product,Wheels x4 (Black Tires + White Rims),black,0.20,10.0,Rubber + ABS,,,,,
+P7,Product,Axles x2 (Grey Connecting Pins),grey,0.06,3.0,ABS Plastic,,,,,
+PR1,Process,Assemble Chassis Base,,,,,2,0.90,2,,
+PR2,Process,Attach Body Blocks to Chassis,,,,,3,0.88,3,,
+PR3,Process,Mount Load Block,,,,,1,0.92,1,,
+PR4,Process,Install Windshield,,,,,1,0.91,1,,
+PR5,Process,Attach Axles to Chassis,,,,,2,0.87,2,,
+PR6,Process,Mount Wheels onto Axles,,,,,2,0.89,2,,
+PR8,Process,Install Rear Spoiler Wing,,,,,1,0.85,1,,
+PR9,Process,Final Inspection and Quality Check,,,,,3,0.95,3,,
+R1,Resource,Assembly Worker,,,,,,,,1.0,Intermediate
+R2,Resource,Block Separator Tool,,,,,,,,1.0,N/A
+R3,Resource,Assembly Station / Workbench,,,,,,,,0.95,N/A
+R4,Resource,Quality Control Inspector,,,,,,,,0.90,Expert
+R5,Resource,Parts Storage Tray,,,,,,,,1.0,N/A
+R6,Resource,Assembly Manual / Work Instructions,,,,,,,,1.0,N/A

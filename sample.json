@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {"id": "P1", "type": "Product", "name": "Chassis", "color": "red", "cost": 0.15, "weight": 12.0, "material": "ABS Plastic"},
+    {"id": "P2", "type": "Product", "name": "Spoiler Wing", "color": "yellow", "cost": 0.10, "weight": 3.0, "material": "ABS Plastic"},
+    {"id": "P3", "type": "Product", "name": "Wheels x4", "color": "black", "cost": 0.20, "weight": 10.0, "material": "Rubber"},
+
+    {"id": "PR1", "type": "Process", "name": "Assemble Chassis", "duration_min": 2, "oee": 0.90, "assembly_time": 2},
+    {"id": "PR2", "type": "Process", "name": "Attach Spoiler", "duration_min": 1, "oee": 0.85, "assembly_time": 1},
+    {"id": "PR3", "type": "Process", "name": "Mount Wheels", "duration_min": 2, "oee": 0.89, "assembly_time": 2},
+
+    {"id": "R1", "type": "Resource", "name": "Assembly Worker", "availability": 1.0, "skill_level": "Intermediate"},
+    {"id": "R2", "type": "Resource", "name": "Workbench", "availability": 0.95, "skill_level": "N/A"}
+  ],
+  "edges": [
+    {"source": "PR1", "target": "P1", "relation": "produces"},
+    {"source": "PR2", "target": "P2", "relation": "produces"},
+    {"source": "PR3", "target": "P3", "relation": "produces"},
+
+    {"source": "R1", "target": "PR1", "relation": "performs"},
+    {"source": "R1", "target": "PR2", "relation": "performs"},
+    {"source": "R1", "target": "PR3", "relation": "performs"},
+    {"source": "R2", "target": "PR1", "relation": "used_in"},
+    {"source": "R2", "target": "PR3", "relation": "used_in"
+  ]
+}

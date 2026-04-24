@@ -1,0 +1,8 @@
+streamlit
+networkx
+graphviz
+matplotlib
+pandas
+openpyxl
+lxml
+pyvis
