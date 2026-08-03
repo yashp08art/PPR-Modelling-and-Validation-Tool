@@ -3,17 +3,16 @@
 This repository is a **fork** of the original, hosted on a teammate's account:
 <https://github.com/yashp08art/PPR-Modelling-and-Validation-Tool>
 
-Forking preserves the original commit history and attribution. The original
-repo's commit history does not reflect authorship, because the shared work was
-pushed from one account.
+Forking preserves the original commit history and attribution. The code was
+pushed from one account in a single upload, so the commit history does not show
+who wrote which module.
 
 ## Project
 
 *Python for Production Systems Engineering, Otto von Guericke University
 Magdeburg. Winter Semester 2025/26, submitted 25 April 2026.*
 
-Registered as a group of three (Yash Ramesh Pokale · Navroop Singh · Briyan
-Babu); the build was two of us.
+Group of two.
 
 ## Navroop Singh's scope
 
